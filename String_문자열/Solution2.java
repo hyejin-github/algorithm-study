@@ -18,10 +18,15 @@ public class Solution2 {
 
     public static String solution(String str){
         String ans = ""; // 초기화
+//        for(char c : str.toCharArray()){
+//            if(Character.isLowerCase(c)) // 소문자라면
+//                ans += Character.toUpperCase(c); // 대문자로
+//            else ans += Character.toLowerCase(c); // 소문자로
+//        }
         for(char c : str.toCharArray()){
-            if(Character.isLowerCase(c)) // 소문자라면
-                ans += Character.toUpperCase(c); // 대문자로
-            else ans += Character.toLowerCase(c); // 소문자로
+            if(c>=65 && c<=90) // 대문자라면
+                ans += (char)(c+32);
+            else ans += (char)(c-32);
         }
         return ans;
     }
