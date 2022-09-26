@@ -1,4 +1,4 @@
-package Recursive;
+package DFS_BFS;
 
 import java.util.*;
 

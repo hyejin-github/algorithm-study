@@ -1,6 +1,4 @@
-package Recursive;
-
-import java.util.*;
+package DFS_BFS;
 
 public class DFS2 {
     static int n;

@@ -1,4 +1,4 @@
-package Recursive;
+package DFS_BFS;
 
 public class DFS {
     static class Node{

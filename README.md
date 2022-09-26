@@ -10,4 +10,4 @@
 | 2022.09.25 | 04.HashMap, HashSet, TreeSet    | [ ] | 2022.09.26 |
 | 2022.09.26 | 05.Stack, Queue                 | [ ] | -          |
 |            | 06. Sorting and Searching       | [ ] | -          |
-|            | 07. Recursive, Tree, Graph      | [ ] | -          |
+|            | 07. DFS_BFS, Tree, Graph      | [ ] | -          |
